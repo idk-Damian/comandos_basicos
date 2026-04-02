@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Servicios - FISEI-UTA</title>
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      padding-top: 56px;
+    }
+
+    .hero-servicios {
+      background: linear-gradient(135deg, #0d6efd, #0a58ca);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .servicio-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+    }
+
+    .servicio-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .servicio-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 20px auto 10px;
+      display: block;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px 0;
+      background-color: #212529;
+      color: white;
+    }
+
+    footer a {
+      color: #adb5bd;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FISEI-UTA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">CONTACTANOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-servicios">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Nuestros Servicios</h1>
+        <p class="lead mt-3">
+          Conoce los principales servicios académicos y tecnológicos que ofrece FISEI-UTA.
+        </p>
+      </div>
+    </section>
+
+    <div class="container py-5">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card servicio-card text-center shadow-sm">
+            <img src="imagenes/COLISEO_UNIVERSITARIO_-_panoramio.jpg" class="servicio-img" alt="Laboratorios">
+            <div class="card-body">
+              <h3 class="card-title">Laboratorios</h3>
+              <p class="card-text">
+                Espacios equipados para prácticas académicas, investigación y desarrollo de proyectos
+                relacionados con software, electrónica, redes y automatización.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card servicio-card text-center shadow-sm">
+            <img src="imagenes/images.jpg" class="servicio-img" alt="Bibliotecas">
+            <div class="card-body">
+              <h3 class="card-title">Bibliotecas</h3>
+              <p class="card-text">
+                Acceso a recursos bibliográficos, libros, tesis, documentos digitales y material de apoyo
+                para fortalecer el aprendizaje y la investigación estudiantil.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card servicio-card text-center shadow-sm">
+            <img src="imagenes/Unknown-1.jpeg" class="servicio-img" alt="Administración de Redes">
+            <div class="card-body">
+              <h3 class="card-title">Administración de Redes</h3>
+              <p class="card-text">
+                Gestión de infraestructura tecnológica, conectividad, soporte de red y servicios informáticos
+                que respaldan las actividades académicas y administrativas.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="p-4 bg-light rounded shadow-sm">
+            <h2>Compromiso institucional</h2>
+            <p class="mb-0">
+              En FISEI-UTA trabajamos para brindar servicios modernos, eficientes y orientados al desarrollo
+              integral de los estudiantes, docentes y personal administrativo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2026 FISEI-UTA</p>
+      <p class="mb-0">
+        <a href="#">Privacidad</a> &middot;
+        <a href="#">Términos</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
